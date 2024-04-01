@@ -23,9 +23,11 @@
 
 <div align="left">
   <a href='https://www.linkedin.com/in/rakesh-kumar-747941141/' target="_blank">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="linkedin logo" style="border-radius: 5px;" />
   </a>
   <a href='https://www.youtube.com/channel/UC0-lJ7AqCPHIrfJpbzPXQJg' target="_blank">
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
+    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="youtube logo" style="border-radius: 5px;" />
   </a>
 </div>
+
+
