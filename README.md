@@ -1,5 +1,5 @@
 # 💫 About Me:
-🎓 Data scientist with a passion for building innovative and user-friendly products.<br>💻 Experienced in a variety of programming languages and technologies, including Python, JavaScript, and React. <br>💡 Strong problem-solving and analytical skills.<br>🤝 Team player with a commitment to excellence.<br>🚀 Always looking for new challenges and opportunities to learn and grow.
+🎓 Data Scientist with a passion for building innovative and user-friendly products.<br>💻 Experienced in a variety of programming languages and technologies, including Python, JavaScript, and React. <br>💡 Strong problem-solving and analytical skills.<br>🤝 Team player with a commitment to excellence.<br>🚀 Always looking for new challenges and opportunities to learn and grow.
 
 <div align="center" style="margin-top:20px">
 
