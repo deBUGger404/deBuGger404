@@ -5,8 +5,6 @@
 I build **AI-powered tools, Python libraries, and developer-focused products**.
 Passionate about turning complex ideas into **simple, scalable, and useful software**.
 
----
-
 ## 🚀 What I Do
 
 * 🧠 Build **AI / Data Science applications**
