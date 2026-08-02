@@ -1,0 +1,49 @@
+name: Refresh complete GitHub profile
+
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update-profile-data.mjs"
+      - ".github/workflows/update-profile-data.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-complete-profile
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch live GitHub metrics
+        run: node scripts/update-profile-data.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: deBUGger404
+
+      - name: Commit refreshed profile metrics
+        run: |
+          if git diff --quiet -- rakesh-banner.svg rakesh-github-activity.svg; then
+            echo "Profile metrics are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rakesh-banner.svg rakesh-github-activity.svg
+          git commit -m "chore: refresh profile metrics"
+          git push
