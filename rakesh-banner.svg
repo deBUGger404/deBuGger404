@@ -3,6 +3,26 @@
 <defs>
 <style type="text/css">
 text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+/* One calm navy-and-blue visual system, including older decorative elements. */
+[fill="#ff7eb6"]{fill:#38bdf8!important}
+[fill="#e879f9"]{fill:#60a5fa!important}
+[fill="#c084fc"]{fill:#93c5fd!important}
+[fill="#8b5cf6"]{fill:#2563eb!important}
+[fill="#7c3aed"]{fill:#2563eb!important}
+[fill="#a78bfa"]{fill:#93c5fd!important}
+[stroke="#ff7eb6"]{stroke:#38bdf8!important}
+[stroke="#e879f9"]{stroke:#60a5fa!important}
+[stroke="#c084fc"]{stroke:#93c5fd!important}
+[stroke="#8b5cf6"]{stroke:#2563eb!important}
+[stroke="#7c3aed"]{stroke:#2563eb!important}
+[stroke="#a78bfa"]{stroke:#93c5fd!important}
+[stop-color="#ff7eb6"]{stop-color:#38bdf8!important}
+[stop-color="#e879f9"]{stop-color:#60a5fa!important}
+[stop-color="#c084fc"]{stop-color:#93c5fd!important}
+[stop-color="#8b5cf6"]{stop-color:#2563eb!important}
+[stop-color="#7c3aed"]{stop-color:#2563eb!important}
+[stop-color="#a78bfa"]{stop-color:#93c5fd!important}
+svg > rect[fill="none"]{stroke:none!important}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes popIn{0%{opacity:0;transform:translateY(14px) scale(.7)}70%{opacity:1;transform:translateY(-3px) scale(1.06)}100%{opacity:1;transform:translateY(0) scale(1)}}
 @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
@@ -29,22 +49,22 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 </style>
 
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#111827"/><stop offset="55%" stop-color="#172554"/><stop offset="100%" stop-color="#0b1020"/>
+  <stop offset="0%" stop-color="#071a33"/><stop offset="55%" stop-color="#0b2a4a"/><stop offset="100%" stop-color="#06152b"/>
 </linearGradient>
 <linearGradient id="nameg" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0%"><animate attributeName="stop-color" values="#22d3ee;#818cf8;#7c3aed;#22d3ee" dur="7s" repeatCount="indefinite"/></stop>
-  <stop offset="55%"><animate attributeName="stop-color" values="#a78bfa;#38bdf8;#818cf8;#a78bfa" dur="7s" repeatCount="indefinite"/></stop>
-  <stop offset="100%"><animate attributeName="stop-color" values="#7c3aed;#22d3ee;#818cf8;#7c3aed" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="0%"><animate attributeName="stop-color" values="#22d3ee;#60a5fa;#2563eb;#22d3ee" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="55%"><animate attributeName="stop-color" values="#93c5fd;#38bdf8;#60a5fa;#93c5fd" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#2563eb;#22d3ee;#60a5fa;#2563eb" dur="7s" repeatCount="indefinite"/></stop>
 </linearGradient>
 <linearGradient id="borderg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#22d3ee" stop-opacity=".42"/>
-  <stop offset="50%" stop-color="#818cf8" stop-opacity=".42"/>
-  <stop offset="100%" stop-color="#7c3aed" stop-opacity=".42"/>
+  <stop offset="0%" stop-color="#0ea5e9" stop-opacity=".28"/>
+  <stop offset="50%" stop-color="#38bdf8" stop-opacity=".25"/>
+  <stop offset="100%" stop-color="#2563eb" stop-opacity=".28"/>
 </linearGradient>
-<radialGradient id="orbP"><stop offset="0%" stop-color="#22d3ee" stop-opacity=".13"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
-<radialGradient id="orbV"><stop offset="0%" stop-color="#7c3aed" stop-opacity=".18"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
-<radialGradient id="orbB"><stop offset="0%" stop-color="#38bdf8" stop-opacity=".12"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
-<radialGradient id="girlGlow"><stop offset="0%" stop-color="#818cf8" stop-opacity=".22"/><stop offset="100%" stop-color="#818cf8" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbP"><stop offset="0%" stop-color="#38bdf8" stop-opacity=".12"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbV"><stop offset="0%" stop-color="#2563eb" stop-opacity=".16"/><stop offset="100%" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbB"><stop offset="0%" stop-color="#0ea5e9" stop-opacity=".10"/><stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
+<radialGradient id="girlGlow"><stop offset="0%" stop-color="#38bdf8" stop-opacity=".14"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
 <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <filter id="glowBig"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r=".6" fill="rgba(192,132,252,.10)"/></pattern>
@@ -79,7 +99,8 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <stop offset="0%" stop-color="#ff7eb6" stop-opacity="0"/><stop offset="100%" stop-color="#ff7eb6" stop-opacity=".14"/>
 </linearGradient>
 <clipPath id="bannerBox"><rect x="1" y="1" width="1278" height="738" rx="22"/></clipPath>
-<linearGradient id="portraitLeftFade" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#170e28" stop-opacity="1"/><stop offset="65%" stop-color="#170e28" stop-opacity=".28"/><stop offset="100%" stop-color="#170e28" stop-opacity="0"/></linearGradient><linearGradient id="portraitBottomFade" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#170e28" stop-opacity="0"/><stop offset="100%" stop-color="#170e28" stop-opacity="1"/></linearGradient></defs>
+<!-- Keep the portrait edge transparent: a dark fade here created a visible vertical seam. -->
+<linearGradient id="portraitLeftFade" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0b2a4a" stop-opacity="0"/><stop offset="100%" stop-color="#0b2a4a" stop-opacity="0"/></linearGradient><linearGradient id="portraitBottomFade" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0b2a4a" stop-opacity="0"/><stop offset="100%" stop-color="#0b2a4a" stop-opacity=".42"/></linearGradient></defs>
 
 <!-- ================= BACKGROUND ================= -->
 <rect width="1280" height="740" rx="22" fill="url(#bg)"/>
@@ -87,7 +108,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <circle cx="230" cy="220" r="260" fill="url(#orbP)"><animate attributeName="r" values="260;290;260" dur="6s" repeatCount="indefinite"/></circle>
 <circle cx="1000" cy="520" r="300" fill="url(#orbV)"><animate attributeName="r" values="300;330;300" dur="7s" repeatCount="indefinite"/></circle>
 <circle cx="700" cy="120" r="200" fill="url(#orbB)"><animate attributeName="r" values="200;225;200" dur="5.5s" repeatCount="indefinite"/></circle>
-<rect x="1" y="1" width="1278" height="738" rx="22" fill="none" stroke="url(#borderg)" stroke-width="1.5"/>
+<!-- Intentionally frameless: the background fades smoothly into the README. -->
 
 <!-- rising particles -->
 <circle class="rp" cx="140" cy="620" r="1.4" fill="#ff7eb6" style="animation-duration:5s"/>
@@ -104,7 +125,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
 <!-- ================= LEFT: CONTENT ================= -->
 <!-- Terminal prompt -->
-<text clip-path="url(#cPrompt)" x="48" y="69" font-size="14"><tspan fill="#22d3ee" font-weight="bold">rakesh@data-science</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat </tspan><tspan fill="#a78bfa">README.md</tspan></text>
+<text clip-path="url(#cPrompt)" x="48" y="69" font-size="14"><tspan fill="#22d3ee" font-weight="bold">rakesh@data-science</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat </tspan><tspan fill="#93c5fd">README.md</tspan></text>
 <rect x="450" y="56" width="8" height="16" fill="#4ade80" opacity="0"><animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite" begin="1.35s"/></rect>
 
 <!-- Hi, I'm -->
@@ -114,11 +135,11 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <g transform="translate(48,196)" fill="url(#nameg)" filter="url(#glow)" aria-label="Rakesh Kumar"><g class="ltr" style="animation-delay:1.60s"><path transform="translate(-11,-70)" d="M 21.928,34.384 V 70 h 8.064 V 48.888 c 0.672,-0.168 1.288,-0.224 1.848,-0.224 3.472,0 4.424,2.744 4.424,6.832 0,2.632 -0.392,7.168 -0.392,9.24 0,4.312 1.68,6.216 5.32,6.216 1.4,0 3.192,-0.28 5.432,-0.952 -1.96,-0.728 -3.192,-2.576 -3.192,-6.216 0,-1.736 0.28,-6.104 0.28,-8.232 0,-5.432 -1.848,-8.12 -5.488,-9.016 2.856,-1.96 4.312,-5.152 4.312,-8.4 C 42.536,31.64 36.824,28 28.816,28 18.288,28 11.008,34.216 11.008,41.496 c 0,4.48 2.8,6.496 7.28,6.496 -0.28,-0.56 -1.904,-1.96 -1.904,-6.16 0,-7.336 4.984,-11.256 11.816,-11.256 7.336,0 8.344,4.48 8.344,7.336 0,4.2 -2.184,8.288 -6.104,8.288 H 29.992 V 33.264 Z M 63.984009,42 v 2.688 c -0.952,-2.632 -3.416,-2.968 -5.264,-2.968 -7.784,0 -10.696,8.792 -10.696,15.624 0,9.744 5.152,12.992 9.856,12.992 3.976,0 6.048,-2.576 7.224,-5.152 0.784,3.192 2.744,5.152 6.664,5.152 3.024,0 8.288,-1.232 9.52,-10.36 h -2.352 c -0.224,2.8 -1.792,4.928 -3.976,4.928 -2.184,0 -2.912,-0.728 -2.912,-3.864 V 42 Z m 0,17.976 c 0,3.248 -2.016,4.928 -3.64,4.928 -1.4,0 -4.144,-0.112 -4.144,-8.064 0,-4.872 1.4,-11.648 5.04,-11.648 1.848,0 2.576,1.568 2.744,2.184 z M 95.512064,42 l -9.016,8.512 V 30.8 l -8.064,1.12 V 70 h 8.064 V 57.512 c 0.56,-1.848 1.736,-3.36 4.032,-3.36 2.408,0 2.856,1.68 2.856,4.312 0,1.344 -0.112,3.248 -0.112,4.144 0,4.144 2.408,7.728 8.063996,7.728 3.64,0 7.28,-1.512 8.456,-10.36 h -2.352 c -0.728,3.36 -1.232,4.928 -3.864,4.928 -2.184,0 -2.744,-1.064 -2.744,-2.632 0,-1.008 0.224,-3.92 0.224,-5.264 0,-5.488 -3.807996,-7.336 -8.007996,-7.336 -0.504,0 -1.008,0 -1.512,0.056 L 101.05606,42 Z m 24.695976,23.632 c -4.032,0 -5.376,-1.96 -5.488,-6.944 5.544,-0.28 10.976,-3.808 10.976,-10.472 0,-1.176 -0.168,-6.496 -7.28,-6.496 -9.352,0 -11.872,9.296 -11.872,15.792 0,9.128 4.592,12.824 11.032,12.824 7.616,0 11.2,-5.208 13.272,-10.36 h -1.904 c -2.128,3.192 -4.2,5.656 -8.736,5.656 z m 1.176,-17.36 c 0,4.144 -2.912,7.448 -6.664,7.728 0.28,-6.048 2.016,-11.312 4.536,-11.312 1.064,0 2.128,1.008 2.128,3.584 z m 28.95205,11.704 c -0.896,0.896 -2.128,1.904 -3.416,2.8 V 62.44 c 0,-5.488 -1.12,-7.672 -4.872,-22.176 l -8.064,1.12 c -0.616,5.488 -2.128,11.032 -4.256,16.576 -1.176,0.616 -2.072,2.072 -2.072,4.088 0,3.64 3.304,8.288 9.856,8.288 2.688,0 5.936,-0.896 7.84,-3.192 2.24,-1.568 5.04,-3.696 7.336,-7.168 z m -16.184,0.504 c 0,-1.176 -0.728,-1.96 -1.568,-2.352 1.176,-3.528 2.352,-6.832 3.08,-10.36 2.296,8.4 3.08,10.248 3.08,14.224 0,2.912 -1.848,3.92 -3.976,3.92 -2.464,0 -3.696,-1.288 -4.256,-3.92 0.392,0.56 1.12,0.728 1.68,0.728 1.232,0 1.96,-1.12 1.96,-2.24 z m 30.464,-7.504 c 0,1.792 -0.112,5.152 -0.112,7.168 0,5.488 1.792,10.192 7.336,10.192 3.192,0 4.928,-1.736 4.928,-5.768 -0.28,0.224 -0.84,0.336 -1.792,0.336 -2.352,0 -2.968,-1.624 -2.968,-4.76 0,-2.128 0.224,-5.824 0.224,-8.288 0,-7.56 -3.584,-10.08 -7.952,-10.08 -1.736,0 -4.088,0.448 -5.88,3.136 V 30.8 l -8.064,1.12 V 70 h 8.064 V 52.024 c 0.224,-2.8 1.232,-5.152 3.248,-5.152 1.904,0 2.968,1.736 2.968,6.104 z m 44.18395,-24.864 c -0.728,-0.056 -1.512,-0.112 -2.352,-0.112 -8.512,0 -16.632,5.936 -16.632,13.496 0,4.424 2.8,6.496 7.28,6.496 -0.392,-0.672 -1.96,-2.184 -1.96,-6.272 0,-4.648 2.016,-7.952 5.6,-9.688 V 70 h 8.064 V 48.888 c 0.504,-0.112 1.232,-0.224 1.904,-0.224 3.416,0 4.368,2.8 4.368,6.832 0,2.632 -0.392,7.168 -0.392,9.24 0,4.312 1.68,6.216 5.32,6.216 1.4,0 3.192,-0.28 5.432,-0.952 -1.96,-0.728 -3.192,-2.576 -3.192,-6.216 0,-1.736 0.28,-6.104 0.28,-8.232 0,-6.888 -3.024,-9.408 -8.736,-9.408 -0.84,0 -1.176,0.056 -1.96,0.056 l 11.928,-17.92 h -5.208 l -9.744,17.752 z M 241.3921,42 v 17.976 c 0,2.8 -1.512,4.928 -3.528,4.928 -1.456,0 -2.296,-1.064 -2.296,-3.864 V 42 h -8.064 v 19.656 c 0,5.264 2.184,8.68 7.504,8.68 2.296,0 5.6,-0.616 7.448,-5.32 0.728,3.304 2.688,5.32 6.664,5.32 3.08,0 8.344,-1.232 9.576,-10.36 h -2.352 c -0.28,2.688 -1.456,4.928 -4.312,4.928 -1.96,0 -2.576,-1.064 -2.576,-3.864 V 42 Z m 42.50395,11.088 c 0,1.4 -0.112,5.432 -0.112,6.776 0,6.328 2.464,10.472 8.064,10.472 3.416,0 7.224,-1.512 8.4,-10.36 h -2.352 c -0.616,2.856 -1.12,4.928 -3.696,4.928 -2.296,0 -2.912,-1.624 -2.912,-4.816 0,-1.904 0.224,-6.048 0.224,-8.008 0,-7.84 -3.584,-10.304 -7.84,-10.304 -2.24,0 -5.096,0.672 -6.944,4.76 -1.512,-3.752 -3.976,-4.816 -6.776,-4.816 -1.904,0 -4.312,0.504 -6.104,3.192 V 42 h -8.064 v 28 h 8.064 V 52.024 c 0.224,-2.8 1.288,-5.208 3.304,-5.208 1.904,0 2.464,2.072 2.464,3.864 V 70 h 8.064 V 52.024 c 0.224,-2.744 1.176,-5.152 3.304,-5.152 1.792,0 2.912,1.736 2.912,6.216 z M 312.9041,42 v 2.688 c -0.952,-2.632 -3.416,-2.968 -5.264,-2.968 -7.784,0 -10.696,8.792 -10.696,15.624 0,9.744 5.152,12.992 9.856,12.992 3.976,0 6.048,-2.576 7.224,-5.152 0.784,3.192 2.744,5.152 6.664,5.152 3.024,0 8.288,-1.232 9.52,-10.36 h -2.352 c -0.224,2.8 -1.792,4.928 -3.976,4.928 -2.184,0 -2.912,-0.728 -2.912,-3.864 V 42 Z m 0,17.976 c 0,3.248 -2.016,4.928 -3.64,4.928 -1.4,0 -4.144,-0.112 -4.144,-8.064 0,-4.872 1.4,-11.648 5.04,-11.648 1.848,0 2.576,1.568 2.744,2.184 z M 327.35215,42 v 28 h 8.064 V 48.72 c 1.176,-1.288 2.24,-2.24 3.36,-2.24 2.128,0 0.896,3.528 4.256,3.528 2.296,0 3.248,-1.68 3.248,-3.304 0,-2.352 -2.016,-4.984 -4.816,-4.984 -2.352,0 -4.424,1.792 -6.048,3.752 V 42 Z"/></g></g><g class="hb" style="animation-delay:3s"><path d="M410 168 c-5-11-21-9-21 4 0 9 12 16 21 22 9-6 21-13 21-22 0-13-16-15-21-4z" fill="#ff7eb6" opacity=".95"/></g>
 
 <!-- Cycling roles -->
-<text clip-path="url(#r1)" x="48" y="241" font-size="17" fill="#a78bfa" filter="url(#glow)">&lt; Data Science Manager /&gt;</text>
-<text clip-path="url(#r2)" x="48" y="241" font-size="17" fill="#a78bfa" filter="url(#glow)">&lt; Data Science Manager /&gt;</text>
-<text clip-path="url(#r3)" x="48" y="241" font-size="17" fill="#a78bfa" filter="url(#glow)">&lt; Data Science Manager /&gt;</text>
-<text clip-path="url(#r4)" x="48" y="241" font-size="17" fill="#a78bfa" filter="url(#glow)">&lt; Data Science Manager /&gt;</text>
-<rect x="48" y="228" width="2.5" height="16" fill="#a78bfa" opacity="0"><animate attributeName="opacity" values="1;0" dur=".8s" repeatCount="indefinite" begin="2.9s"/></rect>
+<text clip-path="url(#r1)" x="48" y="241" font-size="17" fill="#7dd3fc" filter="url(#glow)">&lt; Data Science Manager /&gt;</text>
+<text clip-path="url(#r2)" x="48" y="241" font-size="17" fill="#7dd3fc" filter="url(#glow)">&lt; Data Science Manager /&gt;</text>
+<text clip-path="url(#r3)" x="48" y="241" font-size="17" fill="#7dd3fc" filter="url(#glow)">&lt; Data Science Manager /&gt;</text>
+<text clip-path="url(#r4)" x="48" y="241" font-size="17" fill="#7dd3fc" filter="url(#glow)">&lt; Data Science Manager /&gt;</text>
+<rect x="48" y="228" width="2.5" height="16" fill="#7dd3fc" opacity="0"><animate attributeName="opacity" values="1;0" dur=".8s" repeatCount="indefinite" begin="2.9s"/></rect>
 
 <!-- Quote box -->
 <g class="cl" style="animation:fadeIn .5s ease 3.2s forwards">

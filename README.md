@@ -1,4 +1,4 @@
-<p align="center"><img src="./rakesh-banner.svg?v=5" alt="Rakesh Kumar - Data Science Manager" width="100%"></p>
+<p align="center"><img src="./rakesh-banner.svg?v=7" alt="Rakesh Kumar - Data Science Manager" width="100%"></p>
 
 <br>
 
