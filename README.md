@@ -57,7 +57,7 @@
 </ul>
 
 <h2 align="center">Live GitHub activity</h2>
-<p align="center"><img src="./rakesh-github-activity.svg?v=2" width="95%" alt="Rakesh Kumar live GitHub statistics, languages, streaks, and contribution heatmap"></p>
+<p align="center"><img src="./rakesh-github-activity.svg?v=3" width="95%" alt="Rakesh Kumar live GitHub statistics, languages, streaks, and contribution heatmap"></p>
 
 <h2 align="center">Watch the snake eat my contributions</h2>
 <p align="center"><picture>

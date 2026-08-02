@@ -48,15 +48,9 @@
     <text x="66" y="235" font-size="11" fill="#64748b">FOLLOWERS</text>
     <text id="activity-followers" x="66" y="270" font-size="29" font-weight="700" fill="#22d3ee">5</text>
     <text x="290" y="235" font-size="11" fill="#64748b">YEARLY CONTRIBUTIONS</text>
-<<<<<<< HEAD
-    <text id="activity-contributions" x="290" y="270" font-size="29" font-weight="700" fill="#ff7eb6">3</text>
-    <path d="M450 130h38v38h-38z" fill="none" stroke="#8b5cf6" stroke-width="2" transform="rotate(45 469 149)" opacity=".35"/>
-    <circle cx="469" cy="149" r="9" fill="#8b5cf6" opacity=".75" class="pulse"/>
-=======
-    <text id="activity-contributions" x="290" y="270" font-size="29" font-weight="700" fill="#7c3aed">214</text>
-    <path d="M450 130h38v38h-38z" fill="none" stroke="#7c3aed" stroke-width="2" transform="rotate(45 469 149)" opacity=".45"/>
-    <circle cx="469" cy="149" r="9" fill="#7c3aed" opacity=".75" class="pulse"/>
->>>>>>> eb7e037 (Add updated developer illustration2)
+    <text id="activity-contributions" x="290" y="270" font-size="29" font-weight="700" fill="#60a5fa">3</text>
+    <path d="M450 130h38v38h-38z" fill="none" stroke="#2563eb" stroke-width="2" transform="rotate(45 469 149)" opacity=".45"/>
+    <circle cx="469" cy="149" r="9" fill="#2563eb" opacity=".75" class="pulse"/>
   </g>
 
   <g class="enter" style="animation-delay:.4s">
@@ -69,21 +63,12 @@
       <circle id="lang-dot-4" cx="590" cy="245" r="5" fill="#3572A5"/><text id="lang-name-4" x="604" y="249" fill="#cbd5e1">Python</text><text id="lang-percent-4" x="1028" y="249" text-anchor="end" fill="#94a3b8">7.4%</text>
       <circle id="lang-dot-5" cx="590" cy="274" r="5" fill="#663399"/><text id="lang-name-5" x="604" y="278" fill="#cbd5e1">CSS</text><text id="lang-percent-5" x="1028" y="278" text-anchor="end" fill="#94a3b8">6.3%</text>
     </g>
-<<<<<<< HEAD
-    <rect x="586" y="291" width="442" height="5" rx="2.5" fill="#24183a"/>
+    <rect x="586" y="291" width="442" height="5" rx="2.5" fill="#1e2a4a"/>
     <rect id="lang-bar-1" x="586.00" y="291" width="202.35" height="5" rx="2.5" fill="#DA5B0B"/>
     <rect id="lang-bar-2" x="788.35" y="291" width="103.86" height="5" fill="#f1e05a"/>
     <rect id="lang-bar-3" x="892.21" y="291" width="75.04" height="5" fill="#3178c6"/>
     <rect id="lang-bar-4" x="967.25" y="291" width="32.70" height="5" fill="#3572A5"/>
     <rect id="lang-bar-5" x="999.95" y="291" width="28.05" height="5" rx="2.5" fill="#663399"/>
-=======
-    <rect x="586" y="291" width="442" height="5" rx="2.5" fill="#1e2a4a"/>
-    <rect id="lang-bar-1" x="586" y="291" width="193.6" height="5" rx="2.5" fill="#3572A5"/>
-    <rect id="lang-bar-2" x="779.6" y="291" width="110.5" height="5" fill="#DA5B0B"/>
-    <rect id="lang-bar-3" x="890.1" y="291" width="55.25" height="5" fill="#e34c26"/>
-    <rect id="lang-bar-4" x="945.35" y="291" width="55.25" height="5" fill="#f1e05a"/>
-    <rect id="lang-bar-5" x="1000.6" y="291" width="27.4" height="5" rx="2.5" fill="#3178c6"/>
->>>>>>> eb7e037 (Add updated developer illustration2)
   </g>
 
   <g class="enter" style="animation-delay:.55s">
@@ -92,13 +77,8 @@
     <text id="activity-current-streak" x="66" y="394" font-size="28" font-weight="700" fill="#22d3ee">0 days</text>
     <line x1="340" y1="350" x2="340" y2="394" stroke="#2c3e6d"/>
     <text x="376" y="360" font-size="13" fill="#94a3b8">LONGEST STREAK</text>
-<<<<<<< HEAD
-    <text id="activity-longest-streak" x="376" y="394" font-size="28" font-weight="700" fill="#8b5cf6">1 day</text>
-    <line x1="680" y1="350" x2="680" y2="394" stroke="#34264c"/>
-=======
-    <text id="activity-longest-streak" x="376" y="394" font-size="28" font-weight="700" fill="#7c3aed">3 days</text>
+    <text id="activity-longest-streak" x="376" y="394" font-size="28" font-weight="700" fill="#2563eb">1 day</text>
     <line x1="680" y1="350" x2="680" y2="394" stroke="#2c3e6d"/>
->>>>>>> eb7e037 (Add updated developer illustration2)
     <text x="716" y="360" font-size="13" fill="#94a3b8">DATA WINDOW</text>
     <text id="activity-date-range" x="716" y="393" font-size="15" font-weight="700" fill="#f8fafc">2025-08-03  →  2026-08-02</text>
   </g>
