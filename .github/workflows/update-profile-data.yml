@@ -23,10 +23,13 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          # Do not leave a write credential in .git/config for later actions.
+          persist-credentials: false
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 20
 
@@ -36,14 +39,27 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: deBUGger404
 
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: deBUGger404
+          outputs: |
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
+
       - name: Commit refreshed profile metrics
+        env:
+          # The write token is exposed only to this final, first-party shell step.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if git diff --quiet -- rakesh-banner.svg rakesh-github-activity.svg; then
+          if git diff --quiet -- rakesh-banner.svg rakesh-github-activity.svg github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg; then
             echo "Profile metrics are already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add rakesh-banner.svg rakesh-github-activity.svg
+          git add rakesh-banner.svg rakesh-github-activity.svg github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
           git commit -m "chore: refresh profile metrics"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push
+          git remote set-url origin "https://github.com/${GITHUB_REPOSITORY}.git"

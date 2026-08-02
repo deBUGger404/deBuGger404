@@ -146,10 +146,10 @@ for (let index = 0; index < 5; index += 1) {
 }
 
 const levelColors = {
-  NONE: "#24183a",
-  FIRST_QUARTILE: "#312e81",
-  SECOND_QUARTILE: "#6d28d9",
-  THIRD_QUARTILE: "#8b5cf6",
+  NONE: "#1e2a4a",
+  FIRST_QUARTILE: "#1e3a8a",
+  SECOND_QUARTILE: "#2563eb",
+  THIRD_QUARTILE: "#7c3aed",
   FOURTH_QUARTILE: "#22d3ee",
 };
 const weekGap = 18.25;

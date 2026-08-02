@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="1000" height="150" role="img" aria-label="Contribution snake initializes on the first workflow run">
+<defs><linearGradient id="d" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="1" y="1" width="998" height="148" rx="18" fill="#0d1117" stroke="url(#d)" stroke-opacity=".55"/>
+<circle cx="72" cy="75" r="20" fill="none" stroke="#22d3ee" stroke-width="6" stroke-dasharray="22 12" filter="url(#g)"><animateTransform attributeName="transform" type="rotate" from="0 72 75" to="360 72 75" dur="2s" repeatCount="indefinite"/></circle>
+<text x="118" y="70" font-family="monospace" font-size="20" font-weight="700" fill="#f8fafc">Contribution snake is waking up…</text>
+<text x="118" y="96" font-family="monospace" font-size="13" fill="#94a3b8">The first workflow run replaces this card with your live animation.</text>
+</svg>

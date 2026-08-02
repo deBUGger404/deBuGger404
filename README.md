@@ -1,13 +1,13 @@
-<p align="center"><img src="./rakesh-banner.svg?v=4" alt="Rakesh Kumar - AI Systems Architect" width="100%"></p>
+<p align="center"><img src="./rakesh-banner.svg?v=5" alt="Rakesh Kumar - Data Science Manager" width="100%"></p>
 
 <br>
 
 <table align="center">
 <tr>
-<td width="34%" align="center" valign="middle"><img src="./rakesh-lanyard.svg?v=2" alt="Rakesh Kumar AI systems identity badge" width="290"></td>
+<td width="34%" align="center" valign="middle"><img src="./rakesh-lanyard.svg?v=3" alt="Rakesh Kumar data science identity badge" width="290"></td>
 <td width="66%" valign="middle">
-<h3>Architecting agentic AI systems</h3>
-<p>I am an <strong>AI Systems Architect</strong> specializing in autonomous agents, custom AI protocols, and production-grade intelligent systems. I build high-performance solutions that connect real-time data with LLM reasoning—without losing reliability, traceability, or business context.</p>
+<h3>Leading data science and intelligent products</h3>
+<p>I am a <strong>Data Science Manager</strong> specializing in agentic AI, data strategy, and production-grade intelligent systems. I lead high-performance solutions that connect real-time data with LLM reasoning—without losing reliability, traceability, or business context.</p>
 <ul>
 <li>Designing custom <strong>MCP clients and servers</strong> for real-time tool orchestration</li>
 <li>Engineering deterministic <strong>CoT/ReAct reasoning loops</strong> and multi-agent workflows</li>
@@ -32,19 +32,19 @@
 
 <h2 align="center">Expertise</h2>
 <p align="center">
-<img src="https://img.shields.io/badge/Agentic_AI-111827?style=for-the-badge&amp;logo=openai&amp;logoColor=white" alt="Agentic AI">
+<img src="https://img.shields.io/badge/Agentic_AI-7C3AED?style=for-the-badge&amp;logo=openai&amp;logoColor=white" alt="Agentic AI">
 <img src="https://img.shields.io/badge/MCP_Engineering-7C3AED?style=for-the-badge&amp;logo=probot&amp;logoColor=white" alt="MCP engineering">
 <img src="https://img.shields.io/badge/RAG_%26_LLMs-2563EB?style=for-the-badge&amp;logo=databricks&amp;logoColor=white" alt="RAG and LLMs">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch">
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow">
+<img src="https://img.shields.io/badge/Python-0891B2?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/PyTorch-7C3AED?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch">
+<img src="https://img.shields.io/badge/TensorFlow-2563EB?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow">
 <br>
-<img src="https://img.shields.io/badge/Azure_AI-0078D4?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white" alt="Azure AI">
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&amp;logo=amazonwebservices&amp;logoColor=white" alt="AWS">
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&amp;logo=googlecloud&amp;logoColor=white" alt="Google Cloud">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker">
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=white" alt="Kubernetes">
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="SQL">
+<img src="https://img.shields.io/badge/Azure_AI-0891B2?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white" alt="Azure AI">
+<img src="https://img.shields.io/badge/AWS-7C3AED?style=for-the-badge&amp;logo=amazonwebservices&amp;logoColor=white" alt="AWS">
+<img src="https://img.shields.io/badge/Google_Cloud-2563EB?style=for-the-badge&amp;logo=googlecloud&amp;logoColor=white" alt="Google Cloud">
+<img src="https://img.shields.io/badge/Docker-0891B2?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/Kubernetes-7C3AED?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=white" alt="Kubernetes">
+<img src="https://img.shields.io/badge/SQL-2563EB?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="SQL">
 </p>
 
 <h2 align="center">Professional journey</h2>
@@ -57,14 +57,21 @@
 </ul>
 
 <h2 align="center">Live GitHub activity</h2>
-<p align="center"><img src="./rakesh-github-activity.svg?v=1" width="95%" alt="Rakesh Kumar live GitHub statistics, languages, streaks, and contribution heatmap"></p>
+<p align="center"><img src="./rakesh-github-activity.svg?v=2" width="95%" alt="Rakesh Kumar live GitHub statistics, languages, streaks, and contribution heatmap"></p>
+
+<h2 align="center">Watch the snake eat my contributions</h2>
+<p align="center"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg?v=1">
+<source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg?v=1">
+<img src="./github-contribution-grid-snake.svg?v=1" alt="Rakesh Kumar contribution snake animation" width="95%">
+</picture></p>
 
 <h2 align="center">Connect</h2>
 <p align="center">
-<a href="https://www.linkedin.com/in/rakesh-kumar-747941141/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
-<a href="https://www.youtube.com/@MangaqVerse"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="YouTube"></a>
-<a href="https://medium.com/@deBUGger404"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&amp;logo=medium&amp;logoColor=white" alt="Medium"></a>
-<a href="mailto:rakeshkumarkumawat1436@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
+<a href="https://www.linkedin.com/in/rakesh-kumar-747941141/"><img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
+<a href="https://www.youtube.com/@MangaqVerse"><img src="https://img.shields.io/badge/YouTube-7C3AED?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="YouTube"></a>
+<a href="https://medium.com/@deBUGger404"><img src="https://img.shields.io/badge/Medium-0891B2?style=for-the-badge&amp;logo=medium&amp;logoColor=white" alt="Medium"></a>
+<a href="mailto:rakeshkumarkumawat1436@gmail.com"><img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
 <br><br>
 <img src="https://komarev.com/ghpvc/?username=deBUGger404&amp;color=7C3AED&amp;style=for-the-badge&amp;label=PROFILE+VIEWS" alt="Profile views">
 </p>
